@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --ignore database.json --ignore index.js --ignore main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.2",
+    "fastify": "^4.25.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

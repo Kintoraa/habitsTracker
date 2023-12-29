@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="970f99bf-bbba-446d-9b6a-b89a29cb8d5b" name="Dev" url="http://localhost/3000">
+        <fileTransfer mountedRoot="C:\Users\zanin\Desktop\habits-tracker" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

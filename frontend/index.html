@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="habits_list">
+        <ul class="list_trackers"></ul>
+      </div>
+      <dialog>
+        <form name="">
+          <input type="text" name="text" />
+        </form>
+        <button id="close_dialog">Ajouter</button>
+      </dialog>
+      <button id="add_tracker">Ajoute une nouvelle habitude</button>
+      <dialog id="dialog_history">
+        <button class="close">x</button>
+        <table>
+          <thead>
+            <tr id="header_date"></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </dialog>
+      <button id="history">Historique</button>
+    </div>
+    <script type="module" src="/frontend/main.js"></script>
+  </body>
+</html>
